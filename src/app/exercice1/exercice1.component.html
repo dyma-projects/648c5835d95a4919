@@ -1,0 +1,7 @@
+<h2>{{title}}</h2>
+<span >Saisir votre nom: </span>
+<input type="text" [value]="name" (input) = "name = $any($event.target).value">
+<br>
+<span *ngIf="name">Valeur saisie: {{name}}</span>
+<br>
+<button (click)="reset()">Annuler</button>

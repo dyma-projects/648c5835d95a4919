@@ -1,5 +1,7 @@
 .square {
   border: 1px solid red;
+  background-color: crimson;
   height: 100px;
   width: 100px;
+  cursor: pointer;
 }
